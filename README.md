@@ -3,9 +3,8 @@
 This repo illustrates the how to build a machine learning classifier to predit the flairs of the post of [r/india](https://www.reddit.com/r/india/)
 
 ### Go to [r/india](https://www.reddit.com/r/india/) and open a post
-![recognized_test1.png](https://github.com/gauravchopracg/Reddit-Flair-Detection/blob/master/Images/test1.png) 
-### Copy its url and paste it into the [app](http://rdflair.herokuapp.com/)
-![recognized_test2.png](https://github.com/gauravchopracg/Reddit-Flair-Detection/blob/master/Images/test2.png)
+
+### Copy its url and paste it into the app
 
 Live web app is here:
 [Website](http://rdflair.herokuapp.com/)
