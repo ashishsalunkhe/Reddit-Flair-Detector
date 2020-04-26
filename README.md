@@ -12,14 +12,7 @@ Live web app is here:
 ## Requirements
 The following installation has been tested on MacOSX 10.13.6 and Ubuntu 16.04.
 
-This project requires **Python 3** and the following Python libraries installed(plus a few other s depending on task):
-
-- [sklearn](http://scikit-learn.com/)
-- [Pytorch](http://pytorch.org/)
-- [pandas](pandas.pydata.org/)
-- [Numpy](http://numpy.org/)
-- [Matplotlib](https://matplotlib.org/) 
-- [Torchtext](https://torchtext.readthedocs.io/en/latest/data.html)
+This project requires **Python 3** and the Python libraries required have been stated in the requirements.txt file.
 
 1. Clone the repo
 
@@ -35,23 +28,26 @@ pip install -r requirements.txt
 
 ## Reddit Data Collection
 
-In this part, I have collected two dataset:
-1. 1 year dataset: from 2015 to  2020 with features title, flair, content, timestamp, comments, nsfw, stickied, and url  on post using PRAW
-2. Balanced dataset: 100 post from 9 flairs using praw module.
+In this part, I have collected dataset based on:
+1. 5 year dataset: from 2015 to  2020 with features title, flair, content, timestamp, comments, nsfw, stickied, and url  on post using PRAW
+2. Data set consists of close 250 posts for 12 flairs using praw module.
+3. 20 comments per post.
+Flairs include Coronavirus,
 
  
 ## Exploratoy Data Analysis
 
-In this part, we have try to analyse the data, build intuition about the data and gain insights from the data. 
+In this part, I have tried to analyse the data, build intuition about the data and gain insights from the data. 
 
 ## Building a Flair Detector
 
+In this part, I have tried to build the classifier using both baseline ML algorithms and Neural Networks.
 
 ## Building a Web Application
 
 Web application has been developed with Python and Flask framework. The project has been developed using the tutorial [Flask Mega-Tutorial for Python 3.6](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
 
-**To run the app in you computer:**
+**To run the app:**
 
 1. Clone the repo
 
@@ -80,7 +76,7 @@ $ flask run
 
 ## Deployment
 
-The web application is deployed to Heroku cloud platform. A developer API using flask has been implemented, which returns a JSON containing a python dictionary in which key is URL of post and values are predicted flair. 
+The web application is deployed to Heroku Cloud platform. 
 
 Can be accessed by querying POST request: 
 ```
