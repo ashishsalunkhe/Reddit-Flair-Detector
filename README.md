@@ -36,32 +36,16 @@ pip install -r requirements.txt
 ## Reddit Data Collection
 
 In this part, I have collected two dataset:
-1. 1 year dataset: from 1st January 2019 to 1st January 2020 with features title, flair and body on post using Pushshift's API
+1. 1 year dataset: from 2015 to  2020 with features title, flair, content, timestamp, comments, nsfw, stickied, and url  on post using PRAW
 2. Balanced dataset: 100 post from 9 flairs using praw module.
 
-**Two dataset were collected to test different machine learning algorithms and deep learning models**
-
-For detailed notes please look at [here](https://nbviewer.jupyter.org/github/gauravchopracg/Reddit-Flair-Detection/blob/master/Jupyter%20Notebooks/Part_I_Reddit_Data_Collection.ipynb)
  
 ## Exploratoy Data Analysis
 
-In this part, we have try to understand the data, build intuition about the data and find insights in the data. It consist of:
-
-1. Univariate Analysis
-2. Bivariate Analysis
-3. Feature Engineering
-
-For detailed notes please look at [here](https://nbviewer.jupyter.org/)
+In this part, we have try to analyse the data, build intuition about the data and gain insights from the data. 
 
 ## Building a Flair Detector
 
-This part includes :
-1. Data Preprocessing
-2. Hyperparamter Optimization
-3. Choosing a Validation Strategy
-4. Trying AutoML framework
-
-For detailed notes please look at [here](https://nbviewer.jupyter.org/github/gauravchopracg/Reddit-Flair-Detection/blob/master/Jupyter%20Notebooks/Part_III_Building_a_Flare_Detector.ipynb)
 
 ## Building a Web Application
 
@@ -72,8 +56,8 @@ Web application has been developed with Python and Flask framework. The project 
 1. Clone the repo
 
 ```bash
-$ git clone https://github.com/gauravchopracg/Reddit-Flair-Detection.git
-$ cd Reddit-Flair-Detection/Web Application
+$ git clone https://github.com/ashishsalunkhe/Reddit-Flair-Detector.git
+$ cd Reddit-Flair-Detector/webapp
 ```
 
 2. Install Dependencies
