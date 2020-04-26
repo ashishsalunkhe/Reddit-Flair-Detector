@@ -1,6 +1,6 @@
 # Reddit-Flair-Detection
 
-This repo illustrates the how to build a machine learning classifier to predit the flairs of the post of [r/india](https://www.reddit.com/r/india/)
+Classifier to predit the flairs of the post of [r/india](https://www.reddit.com/r/india/)
 
 ### Go to [r/india](https://www.reddit.com/r/india/) and open a post
 
@@ -10,7 +10,7 @@ Live web app is here:
 [Website](http://rdflair.herokuapp.com/)
 
 ## Requirements
-The following installation has been tested on MacOSX 10.13.6 and Ubuntu 16.04.
+The following installation has been tested on Ubuntu 18.04.
 
 This project requires **Python 3** and the Python libraries required have been stated in the requirements.txt file.
 
@@ -45,7 +45,7 @@ In this part, I have tried to build the classifier using both baseline ML algori
 
 ## Building a Web Application
 
-Web application has been developed with Python and Flask framework. The project has been developed using the tutorial [Flask Mega-Tutorial for Python 3.6](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+Web application has been developed with Python and Flask framework.
 
 **To run the app:**
 
