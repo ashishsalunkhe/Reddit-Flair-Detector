@@ -83,6 +83,6 @@ Can be accessed by querying POST request:
 import requests
 
 files = {'upload_file': open('test.txt','rb')}
-r = requests.post("http://rdflair.herokuapp.com/automated_testing", files=files)
+r = requests.post("https://reddit-heroku-flair.herokuapp.com/automated_testing", files=files)
 ```
 
