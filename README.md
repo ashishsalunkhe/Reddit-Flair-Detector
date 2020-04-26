@@ -7,7 +7,7 @@ Classifier to predit the flairs of the post of [r/india](https://www.reddit.com/
 ### Copy its url and paste it into the app
 
 Live web app is here:
-[Website](http://rdflair.herokuapp.com/)
+[Website](https://reddit-heroku-flair.herokuapp.com/)
 
 ## Requirements
 The following installation has been tested on Ubuntu 18.04.
