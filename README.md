@@ -17,8 +17,8 @@ This project requires **Python 3** and the Python libraries required have been s
 1. Clone the repo
 
 ```bash
-git clone https://github.com/gauravchopracg/Reddit-Flair-Detection.git
-cd Reddit-Flair-Detection/
+git clone https://github.com/ashishsalunkhe/Reddit-Flair-Detector.git
+cd Reddit-Flair-Detector/
 ```
 
 2. Install Dependencies
